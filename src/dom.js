@@ -44,7 +44,7 @@ function populateCityInfo(city){
     tempdiv.setAttribute("id","tempdiv");
     let feelsLike = document.createElement("p");
     feelsLike.setAttribute("id","feelsLike");
-    feelsLike.textContent = tempCround.toFixed(0) + " º";
+    feelsLike.textContent = tempCround.toFixed(0) + " ºC";
     tempdiv.appendChild(feelsLike);
     allinfo.appendChild(tempdiv);
 
